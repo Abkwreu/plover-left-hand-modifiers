@@ -1,4 +1,4 @@
-# Left Hand Modifiers
+# Abby's Left Hand Modifiers Dictionary
 
 ## Design
 
@@ -155,14 +155,14 @@ When `*` is held in addition to the pattern for any number, the number key on th
 | ![](img/period.png) | `.` | **P**e**R**iod |
 | ![](img/comma.png) | `,` | **C**o**MM**a |
 | ![](img/slash.png) | `/` | **SL**ash |
-| ![](img/backslash.png) | `\\` | **B**ack**SL**ash |
+| ![](img/backslash.png) | `\` | **B**ack**SL**ash |
 | ![](img/semicolon.png) | `;` | **S**emi**C**o**L**on |
 | ![](img/apostrophe.png) | `'` | **QUO**te |
 | ![](img/bracketleft.png) | `[` | **B**racket **L**eft |
 | ![](img/bracketright.png) | `]` | **B**racket **R**ight |
 | ![](img/minus.png) | `-` | **D**as**H** |
 | ![](img/equal.png) | `=` | e**QUA**ls |
-| ![](img/grave.png) | `\`` | **GR**ave |
+| ![](img/grave.png) | ` | **GR**ave |
 
 ### Navigation keys
 
@@ -190,7 +190,7 @@ Holding down `*` in addition to the stroke for any arrow key will cause the keys
 | --- | --- | --- |
 | ![](img/caps_lock.png) | Caps Lock | **C**aps **L**ock + asterisk |
 | ![](img/scroll_lock.png) | Scroll Lock | **SC**roll **L**ock + asterisk |
-| ![](img/num_lock.png) | Num Lock | **N**um Lock + asterisk |
+| ![](img/num_lock.png) | Num Lock | **N**um lock + asterisk |
 | ![](img/space.png) | Space | **SP**ace |
 | ![](img/return.png) | Return | **ENT**e**R** |
 | ![](img/tab.png) | Tab | **T**a**B** |
@@ -198,14 +198,24 @@ Holding down `*` in addition to the stroke for any arrow key will cause the keys
 | ![](img/delete.png) | Delete | **D**e**L**ete |
 | ![](img/escape.png) | Escape | e**SCA**pe |
 | ![](img/insert.png) | Insert | i**NS**ert |
+| ![](img/menu.png) | Menu | **M**enu + asterisk |
 | ![](img/print.png) | Print Screen | **SC**reen **PR**int |
 
 ### Only modifiers
 
 The pattern `TPHO` ("no") allows only modifier keys to be pressed, with no other keys included.
+
 | Stroke | Key |
 | --- | --- |
 | ![](img/no.png) | None |
+
+### Cancel
+
+If you pressed a modifier key pattern on accident, you can use `SKPH` to cancel it.
+
+| Stroke | Key |
+| --- | --- |
+| ![](img/cancel.png) | Cancel |
 
 ## Examples
 
