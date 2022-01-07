@@ -1,20 +1,23 @@
 # Abby's Left Hand Modifiers Dictionary
 
-* [Design](#Abby's Left Hand Modifiers Dictionary#Design)
-* [Modifiers](#Abby's Left Hand Modifiers Dictionary#Modifiers)
-  * [Single modifier keys](#Abby's Left Hand Modifiers Dictionary#Modifiers#Single modifier keys)
-  * [Modifier key combinations](#Abby's Left Hand Modifiers Dictionary#Modifiers#Modifier key combinations)
-* [Keys](#Abby's Left Hand Modifiers Dictionary#Keys)
-  * [Letters](#Abby's Left Hand Modifiers Dictionary#Keys#Letters)
-  * [Numbers](#Abby's Left Hand Modifiers Dictionary#Keys#Numbers)
-  * [Function Keys](#Abby's Left Hand Modifiers Dictionary#Keys#Function Keys)
-  * [Numpad](#Abby's Left Hand Modifiers Dictionary#Keys#Numpad)
-  * [Symbol keys](#Abby's Left Hand Modifiers Dictionary#Keys#Symbol keys)
-  * [Navigation keys](#Abby's Left Hand Modifiers Dictionary#Keys#Navigation keys)
-  * [Other keys](#Abby's Left Hand Modifiers Dictionary#Keys#Other keys)
-  * [Only modifiers](#Abby's Left Hand Modifiers Dictionary#Keys#Only modifiers)
-  * [Cancel](#Abby's Left Hand Modifiers Dictionary#Keys#Cancel)
-* [Examples](#Abby's Left Hand Modifiers Dictionary#Examples)
+## Table Of Contents
+
+- [Abby's Left Hand Modifiers Dictionary](Abby's-Left-Hand-Modifiers-Dictionary)
+  - [Design](#Design)
+  - [Modifiers](#Modifiers)
+    - [Single modifier keys](#Single-modifier-keys)
+    - [Modifier key combinations](#Modifier-key-combinations)
+  - [Keys](#Keys)
+    - [Letters](#Letters)
+    - [Numbers](#Numbers)
+    - [Function Keys](#Function-Keys)
+    - [Numpad](#Numpad)
+    - [Symbol keys](#Symbol-keys)
+    - [Navigation keys](#Navigation-keys)
+    - [Other keys](#Other-keys)
+    - [Only modifiers](#Only-modifiers)
+    - [Cancel](#Cancel)
+  - [Examples](#Examples)
 
 ## Design
 
