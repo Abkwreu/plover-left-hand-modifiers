@@ -43,12 +43,12 @@ keypress.
 
 Patterns for single modifier keys.
 
-| Stroke             | Modifier | Explanation                          |
-| ---                | ---      | ---                                  |
-| ![](img/ctrl.png)  | Control  | **C**ontro**L**                      |
-| ![](img/alt.png)   | Alt      | **ALT** (reversed)                   |
-| ![](img/shift.png) | Shift    | **SH**ift                            |
-| ![](img/super.png) | Super    | Purely positional, no phonetic basis |
+| Stroke             | Modifier                | Explanation                          |
+| ---                | ---                     | ---                                  |
+| ![](img/ctrl.png)  | Control                 | **C**ontro**L**                      |
+| ![](img/alt.png)   | Alt                     | **ALT** (reversed)                   |
+| ![](img/shift.png) | Shift                   | **SH**ift                            |
+| ![](img/super.png) | Super (Windows/Command) | Purely positional, no phonetic basis |
 
 ### Modifier key combinations
 
