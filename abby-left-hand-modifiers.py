@@ -33,7 +33,7 @@ keys = {
     "TKPW": "g",
     "H": "h",
     "EU": "i",
-    "WR": "i",  # left hand stroke for I
+    "SKW": "i",  # left hand stroke for I
     "SKWR": "j",
     "K": "k",
     "HR": "l",
@@ -46,7 +46,7 @@ keys = {
     "S": "s",
     "T": "t",
     "U": "u",
-    "SKW": "u",  # left hand stroke for U
+    "WR": "u",  # left hand stroke for U
     "SR": "v",
     "W": "w",
     "KP": "x",
