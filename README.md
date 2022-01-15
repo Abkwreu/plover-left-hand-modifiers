@@ -2,21 +2,23 @@
 
 ## Table Of Contents
 
-- [Design](#Design)
-- [Modifiers](#Modifiers)
-  - [Single modifier keys](#Single-modifier-keys)
-  - [Modifier key combinations](#Modifier-key-combinations)
-- [Keys](#Keys)
-  - [Letters](#Letters)
-  - [Numbers](#Numbers)
-  - [Function Keys](#Function-Keys)
-  - [Numpad](#Numpad)
-  - [Symbol keys](#Symbol-keys)
-  - [Navigation keys](#Navigation-keys)
-  - [Other keys](#Other-keys)
-  - [Only modifiers](#Only-modifiers)
-  - [Cancel](#Cancel)
-- [Examples](#Examples)
+- [Abby's Left Hand Modifiers Dictionary](#abbys-left-hand-modifiers-dictionary)
+  - [Table Of Contents](#table-of-contents)
+  - [Design](#design)
+  - [Modifiers](#modifiers)
+    - [Single modifier keys](#single-modifier-keys)
+    - [Modifier key combinations](#modifier-key-combinations)
+  - [Keys](#keys)
+    - [Letters](#letters)
+    - [Numbers](#numbers)
+    - [Function Keys](#function-keys)
+    - [Numpad](#numpad)
+    - [Symbol keys](#symbol-keys)
+    - [Navigation keys](#navigation-keys)
+    - [Other keys](#other-keys)
+    - [Only modifiers](#only-modifiers)
+    - [Cancel](#cancel)
+  - [Examples](#examples)
 
 ## Design
 
@@ -44,7 +46,7 @@ keypress.
 Patterns for single modifier keys.
 
 | Stroke             | Modifier                | Explanation                          |
-| ---                | ---                     | ---                                  |
+| ------------------ | ----------------------- | ------------------------------------ |
 | ![](img/ctrl.png)  | Control                 | **C**ontro**L**                      |
 | ![](img/alt.png)   | Alt                     | **ALT** (reversed)                   |
 | ![](img/shift.png) | Shift                   | **SH**ift                            |
@@ -52,26 +54,22 @@ Patterns for single modifier keys.
 
 ### Modifier key combinations
 
-The pattern for the alt + shift combination is `SHA`.
+Modifier key combinations are made by stacking the chords for individual
+modifier keys on top of each other, with three exceptions:
 
-| Stroke                 | Modifiers   |
-| ---                    | ---         |
-| ![](img/alt-shift.png) | Alt + Shift |
-
-Combinations using control (but not super) are formed using `KHR` for control
-and adding `A` for alt and `S` for shift.
-
-| Stroke                      | Modifiers          |
-| ---                         | ---                |
-| ![](img/ctrl-alt.png)       | Ctrl + Alt         |
-| ![](img/ctrl-shift.png)     | Ctrl + Shift       |
-| ![](img/ctrl-alt-shift.png) | Ctrl + Alt + Shift |
-
-Combinations using super are formed using `KPWR` for super and adding `H` for
-control, `A` for alt, and `S` for shift.
+- The Ctrl + Alt + Super combination is given `TKPWHRAO`, with an additional `O`
+due to a conflict with `TKPWHRA` for Alt + Super.
+- The Ctrl + Shift + Super combination is given `SKPWHRO`, with an additional
+`O` due to a conflict with `SKPWHR` for Shift + Super.
+- The Ctrl + Alt + Shift + Super combination is given `STKPWHRAO`, with an
+additional `O` due to a conflict with `STKPWHRA` for Alt + Shift + Super.
 
 | Stroke                            | Modifiers                  |
-| ---                               | ---                        |
+| --------------------------------- | -------------------------- |
+| ![](img/alt-shift.png)            | Alt + Shift                |
+| ![](img/ctrl-alt.png)             | Ctrl + Alt                 |
+| ![](img/ctrl-shift.png)           | Ctrl + Shift               |
+| ![](img/ctrl-alt-shift.png)       | Ctrl + Alt + Shift         |
 | ![](img/ctrl-super.png)           | Ctrl + Super               |
 | ![](img/alt-super.png)            | Alt + Super                |
 | ![](img/ctrl-alt-super.png)       | Ctrl + Alt + Super         |
@@ -80,11 +78,11 @@ control, `A` for alt, and `S` for shift.
 | ![](img/alt-shift-super.png)      | Alt + Shift + Super        |
 | ![](img/ctrl-alt-shift-super.png) | Ctrl + Alt + Shift + Super |
 
-The pattern for no modifier keys is `TKPWHR`. This presses a key alone without
-any modifier keys.
+The pattern for no modifier keys is `TKPWHR`. This presses a key specified in
+the second stroke without any additional modifier keys.
 
 | Stroke                    | Modifiers |
-| ---                       | ---       |
+| ------------------------- | --------- |
 | ![](img/no-modifiers.png) | None      |
 
 ## Keys
@@ -100,7 +98,7 @@ special patterns so they fit on the left hand. (Using `E`, `EU`, and `U` for E,
 I, and U still work, but are not shown below.)
 
 | Stroke          | Letter          |
-| ---             | ---             |
+| --------------- | --------------- |
 | ![](img/a.png)  | `A`             |
 | ![](img/b.png)  | `B`             |
 | ![](img/c.png)  | `C`             |
@@ -134,7 +132,7 @@ I, and U still work, but are not shown below.)
 When `AO` is held, `STPH` will act as binary number input for numbers 0-9.
 
 | Stroke         | Number |
-| ---            | ---    |
+| -------------- | ------ |
 | ![](img/0.png) | `0`    |
 | ![](img/1.png) | `1`    |
 | ![](img/2.png) | `2`    |
@@ -151,20 +149,20 @@ When `AO` is held, `STPH` will act as binary number input for numbers 0-9.
 When `R` is held in addition to the pattern for any number 1-12, the
 corresponding function key will be used.
 
-| Stroke           | Number |
-| ---              | ---    |
-| ![](img/f1.png)  | `F1`   |
-| ![](img/f2.png)  | `F2`   |
-| ![](img/f3.png)  | `F3`   |
-| ![](img/f4.png)  | `F4`   |
-| ![](img/f5.png)  | `F5`   |
-| ![](img/f6.png)  | `F6`   |
-| ![](img/f7.png)  | `F7`   |
-| ![](img/f8.png)  | `F8`   |
-| ![](img/f9.png)  | `F9`   |
-| ![](img/f10.png) | `F10`  |
-| ![](img/f11.png) | `F11`  |
-| ![](img/f12.png) | `F12`  |
+| Stroke           | Function Key |
+| ---------------- | ------------ |
+| ![](img/f1.png)  | `F1`         |
+| ![](img/f2.png)  | `F2`         |
+| ![](img/f3.png)  | `F3`         |
+| ![](img/f4.png)  | `F4`         |
+| ![](img/f5.png)  | `F5`         |
+| ![](img/f6.png)  | `F6`         |
+| ![](img/f7.png)  | `F7`         |
+| ![](img/f8.png)  | `F8`         |
+| ![](img/f9.png)  | `F9`         |
+| ![](img/f10.png) | `F10`        |
+| ![](img/f11.png) | `F11`        |
+| ![](img/f12.png) | `F12`        |
 
 ### Numpad
 
@@ -172,7 +170,7 @@ When `*` is held in addition to the pattern for any number, the number key on
 the numpad will instead be used.
 
 | Stroke            | Number       |
-| ---               | ---          |
+| ----------------- | ------------ |
 | ![](img/kp_0.png) | `0` (numpad) |
 | ![](img/kp_1.png) | `1` (numpad) |
 | ![](img/kp_2.png) | `2` (numpad) |
@@ -187,7 +185,7 @@ the numpad will instead be used.
 ### Symbol keys
 
 | Stroke                    | Key | Explanation           |
-| ---                       | --- | ---                   |
+| ------------------------- | --- | --------------------- |
 | ![](img/period.png)       | `.` | **P**e**R**iod        |
 | ![](img/comma.png)        | `,` | **C**o**MM**a         |
 | ![](img/slash.png)        | `/` | **SL**ash             |
@@ -198,14 +196,14 @@ the numpad will instead be used.
 | ![](img/bracketright.png) | `]` | **B**racket **R**ight |
 | ![](img/minus.png)        | `-` | **D**as**H**          |
 | ![](img/equal.png)        | `=` | e**QUA**ls            |
-| ![](img/grave.png)        | `   | **GR**ave             |
+| ![](img/grave.png)        | `ˋ` | **GR**ave             |
 
 ### Navigation keys
 
 Holding down `A` (for **a**rrow) will cause `PKWR` to act as arrow keys.
 
 | Stroke             | Key   |
-| ---                | ---   |
+| ------------------ | ----- |
 | ![](img/up.png)    | Up    |
 | ![](img/down.png)  | Down  |
 | ![](img/left.png)  | Left  |
@@ -215,7 +213,7 @@ Holding down `*` in addition to the stroke for any arrow key will cause the keys
 to act as page up, page down, home, and end.
 
 | Stroke             | Key       |
-| ---                | ---       |
+| ------------------ | --------- |
 | ![](img/prior.png) | Page Up   |
 | ![](img/next.png)  | Page Down |
 | ![](img/home.png)  | Home      |
@@ -224,7 +222,7 @@ to act as page up, page down, home, and end.
 ### Other keys
 
 | Stroke                   | Key          | Explanation                    |
-| ---                      | ---          | ---                            |
+| ------------------------ | ------------ | ------------------------------ |
 | ![](img/caps_lock.png)   | Caps Lock    | **C**aps **L**ock + asterisk   |
 | ![](img/scroll_lock.png) | Scroll Lock  | **SC**roll **L**ock + asterisk |
 | ![](img/num_lock.png)    | Num Lock     | **N**um lock + asterisk        |
@@ -244,7 +242,7 @@ The pattern `TPHO` ("no") allows only modifier keys to be pressed, with no other
 keys included.
 
 | Stroke          | Key  |
-| ---             | ---  |
+| --------------- | ---- |
 | ![](img/no.png) | None |
 
 ### Cancel
@@ -253,16 +251,16 @@ If you pressed a modifier key pattern on accident, you can use `SKPH` to cancel
 it.
 
 | Stroke              | Key    |
-| ---                 | ---    |
+| ------------------- | ------ |
 | ![](img/cancel.png) | Cancel |
 
 ## Examples
 
-| Strokes                                      | Keys Pressed        | Use                             |
-| ---                                          | ---                 | ---                             |
-| ![](img/ctrl.png) ![](img/a.png)             | Ctrl + A            | Select all (Windows or Linux)   |
-| ![](img/super.png) ![](img/a.png)            | Super + A           | Select all (Mac)                |
-| ![](img/alt.png) ![](img/f4.png)             | Alt + F4            | Close window (Windows or Linux) |
-| ![](img/ctrl-alt.png) ![](img/t.png)         | Ctrl + Alt + T      | Open terminal (Linux)           |
-| ![](img/super.png) ![](img/no.png)           | Super (Windows key) | Open start menu (Windows)       |
-| ![](img/no-modifiers.png) ![](img/print.png) | Print Screen        | Take screenshot                 |
+| Strokes                                           | Keys Pressed        | Use                             |
+| ------------------------------------------------- | ------------------- | ------------------------------- |
+| ![](img/ctrl.png)<br />![](img/a.png)             | Ctrl + A            | Select all (Windows or Linux)   |
+| ![](img/super.png)<br />![](img/a.png)            | Super + A           | Select all (Mac)                |
+| ![](img/alt.png)<br />![](img/f4.png)             | Alt + F4            | Close window (Windows or Linux) |
+| ![](img/ctrl-alt.png)<br />![](img/t.png)         | Ctrl + Alt + T      | Open terminal (Linux)           |
+| ![](img/super.png)<br />![](img/no.png)           | Super (Windows key) | Open start menu (Windows)       |
+| ![](img/no-modifiers.png)<br />![](img/print.png) | Print Screen        | Take screenshot                 |

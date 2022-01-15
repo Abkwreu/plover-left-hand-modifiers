@@ -5,19 +5,19 @@ modifiers = [
     "TKPWHR",  # no modifier keys, press key alone
     "KHR",  # ctrl
     "THRA",  # alt
-    "KHRA",  # ctrl alt
+    "TKHRA",  # ctrl alt
     "SH",  # shift
     "SKHR",  # ctrl shift
-    "SHA",  # alt shift
-    "SKHRA",  # ctrl alt shift
+    "STHRA",  # alt shift
+    "STKHRA",  # ctrl alt shift
     "KPWR",  # super
     "KPWHR",  # ctrl super
-    "KPWRA",  # alt super
-    "KPWHRA",  # ctrl alt super
-    "SKPWR",  # shift super
-    "SKPWHR",  # ctrl shift super
-    "SKPWRA",  # alt shift super
-    "SKPWHRA"  # ctrl alt shift super
+    "TKPWHRA",  # alt super
+    "TKPWHRAO",  # ctrl alt super
+    "SKPWHR",  # shift super
+    "SKPWHRO",  # ctrl shift super
+    "STKPWHRA",  # alt shift super
+    "STKPWHRAO"  # ctrl alt shift super
 ]
 
 # list of keys for second stroke
